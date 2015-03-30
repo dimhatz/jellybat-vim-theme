@@ -45,6 +45,7 @@ hi Statement guifg=#88b8f6 guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NO
 hi Type guifg=#e8a75d guibg=NONE guisp=NONE gui=NONE ctermfg=179 ctermbg=NONE cterm=NONE
 	hi! link Function Type
 	hi! link diffOldFile Type
+	hi! link StorageClass Type
 
 hi Macro guifg=#c6b6ee guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE cterm=NONE
 	hi! link Define Macro
@@ -52,7 +53,6 @@ hi Macro guifg=#c6b6ee guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE c
 	hi! link Include Macro
 	hi! link PreCondit Macro
 	hi! link PreProc Macro
-	hi! link SpecialChar Macro
 	hi! link Typedef Macro
 	hi! link diffLine Macro
 
@@ -64,11 +64,11 @@ hi Number guifg=#e5796d guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE 
 	hi! link diffRemoved Number
 
 hi Special guifg=#cfc96e guibg=NONE guisp=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
+	hi! link SpecialChar Special
 	hi! link Delimiter Special
 	hi! link Directory Special
 	hi! link Operator Special
 	hi! link SpecialComment Special
-	hi! link StorageClass Special
 	hi! link Tag Special
 	hi! link diffNewFile Special
 	hi! link Directory Special
