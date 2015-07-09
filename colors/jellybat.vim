@@ -20,6 +20,7 @@ set t_Co=256
 let g:colors_name = "jellybat"
 
 hi Normal guifg=#e8e8d3 guibg=#151515 guisp=#151515 gui=NONE ctermfg=188 ctermbg=233 cterm=NONE
+	hi! link SignColumn Normal
 hi Comment guifg=#7D7468  guibg=NONE guisp=NONE gui=italic ctermfg=243 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#7D7468  guibg=NONE guisp=NONE gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE
 hi CursorLine guifg=NONE guibg=#1c1c1c guisp=#1c1c1c gui=NONE ctermfg=NONE ctermbg=234 cterm=NONE
