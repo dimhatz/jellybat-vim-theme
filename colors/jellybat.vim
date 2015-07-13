@@ -92,8 +92,9 @@ hi Label guifg=#5bd4bc guibg=NONE guisp=NONE gui=NONE ctermfg=79 ctermbg=NONE ct
 hi Debug guifg=#cf7ac9 guibg=NONE guisp=NONE gui=bold ctermfg=176 ctermbg=NONE cterm=bold
 	hi! link Exception Debug
 	hi! link WarningMsg Debug
+	hi! link YcmWarningSign Debug
 
 hi Error guifg=#ff2027 guibg=NONE guisp=NONE gui=bold ctermfg=196 ctermbg=NONE cterm=bold
 	hi! link ErrorMsg Error
 
-hi YcmWarning guifg=#ffffd7 guibg=NONE guisp=NONE gui=bold ctermfg=230 ctermbg=243 cterm=bold
+" hi YcmWarningSign guifg=#ffffd7 guibg=NONE guisp=NONE gui=bold ctermfg=230 ctermbg=NONE cterm=bold
